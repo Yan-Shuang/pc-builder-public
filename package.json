@@ -1,0 +1,10 @@
+{
+  "name": "pc-builder-public",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check app.js && node --check src/deterministic-recommender.js && node --check src/example-catalog.js"
+  }
+}
